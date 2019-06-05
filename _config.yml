@@ -48,7 +48,7 @@ keep_files: [assets, files]
 github: [metadata]
 
 author: soulate@gmail.com
-image: '/assets/images/default_blog_cover.png'
+image: '/assets/images/cover4.jpg'
 asset_url: /assets
 google_analytics:
   ua: 'UA-4543834-2'
