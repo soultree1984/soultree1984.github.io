@@ -48,9 +48,6 @@
         <input id="search-input" type="search" placeholder="Search..." value="" />
     </div>
     <ul class="search__results" id="results-container"></ul>
-    <a href="/" class="logo">
-        <span class="sr-only">I am <b>Developer</b>.</span>
-    </a>
     <ul id="menu" class="nav">
         <li class="{% if page.url != '/opensource/' and page.url != '/openapi/' and page.url != '/events/' %} active {% endif %}"><a href="{{ base_path }}/">기술</a></li>
         <li class="{% if page.url == '/AirQualityIndex/' %} active {% endif %}"><a href="{{ base_path }}/AirQualityIndex/">잡담</a></li>
