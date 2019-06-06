@@ -1,3 +1,26 @@
+<style>
+
+    @media only screen and (max-width: 720px){
+        .logo {
+            position: absolute;
+            top: 15px;
+            left: 37%;
+            margin: 0 0;
+            padding: 0;
+        }
+    }
+
+    @media only screen and (min-width: 721px){
+        .logo {
+            position: absolute;
+            top: 18px;
+            left: 5%;
+            margin: 0 0;
+            padding: 0;
+        }
+    }
+
+</style>
 <div id="header">
     <button id="menu-toggle" type="button">
         <span class="sr-only">Toggle Navigation Menu</span>
@@ -5,6 +28,9 @@
     <button id="search-toggle" type="button">
         <span class="sr-only">Toggle Search Form</span>
     </button>
+    <a class="logo" href="/">
+        <span>I am <span style="font-weight: bold;">Developer</span>. </span>
+    </a>
     <div id="search">
         <input id="search-input" type="search" placeholder="Search..." value="" />
     </div>
