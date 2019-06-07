@@ -1,9 +1,17 @@
 ---
 layout: home
+image: '/assets/images/cover4.jpg'
+permalink: /
+pagination:
+    enabled: true
+    category: tech
+    permalink: page/:num/
+    sort_reverse: false
 ---
 <ul id="post-list">
     {% for post in paginator.posts %}
         {% include item.html %}
     {% endfor %}
 </ul>
+
 {% include pagination.html %}

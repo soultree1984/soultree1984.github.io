@@ -1,4 +1,5 @@
-title: soultree1984's tech blog
+title: soultree1984's blog
+sub_title: 그리고 봄이 올것이다.
 email: soulate@gmail.com
 description: |
   걱정하지 마라. 포기하지 마라. 후회하지 마라.
@@ -6,7 +7,9 @@ baseurl: ''
 url: 'https://soultree1984.github.io'
 timezone: Asia/Seoul
 
-permalink: /:year/:month/:day/:title/
+repository: kakao/kakao.github.io
+
+permalink: /:categories/:title
 
 excerpt_separator: <!--more-->
 
@@ -17,10 +20,15 @@ krandown:
   highlighter: rouge
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
-paginate: 5
-paginate_path: '/page/:num/'
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 collections:
   authors:
@@ -46,11 +54,14 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 
 keep_files: [assets, files]
 github: [metadata]
-
-author: soulate@gmail.com
+# iolo's custom
+author: opensource@kakaocorp.com
 image: '/assets/images/cover4.jpg'
 asset_url: /assets
+#asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
+#asset_url: //t1.daumcdn.net/osa/blog/assets
 google_analytics:
-  ua: 'UA-4543834-2'
+  ua: 'UA-72007721-1'
+
 github_url:
   username: soultree1984

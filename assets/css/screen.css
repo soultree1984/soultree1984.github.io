@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Kakao', sans-serif;
     font-weight: 400;
     color: #1e1e1e;
 }
@@ -195,12 +195,12 @@ for small screen(<720px):
     position: absolute;
     top: 0;
     left: 30px;
-    width: 250px;
-    height: 61px;
+    width: 123px;
+    height: 60px;
     margin: 0 0;
     padding: 0;
     background: url(../images/pc/tech_logo.png) no-repeat center;
-    background-size: 250px 33px;
+    background-size: 123px 21px;
 }
 
 #menu {
@@ -229,8 +229,8 @@ for small screen(<720px):
 
 #menu > li.active,
 #menu > li:hover {
-    border-bottom: 2px solid #006fdf;
-    color: #1e1e1e;
+    border-bottom: 3px solid #f3cf00;
+    color: #f3cf00;
     font-weight: 400;
 }
 
@@ -385,6 +385,10 @@ for small screen(<720px):
     background-image: url(../images/pc/icon_face.png);
 }
 
+#link-twitter {
+    background-image: url(../images/pc/icon_twit.png);
+}
+
 #link-rss {
     background-image: url(../images/pc/icon_rss.png);
 }
@@ -491,11 +495,59 @@ for small screen(<720px):
     background-size: 7px 11px;
 }
 
+#shares {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#shares > li {
+    list-style: none;
+    display: inline;
+}
+
+#shares > li > * {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#shares > li.talk {
+    display: none;
+}
+
+#kakao-link-btn {
+    background: url(../images/pc/share_talk.png) no-repeat;
+    background-size: 20px 20px;
+}
+
+#share-kakaostory {
+    background: url(../images/pc/share_story.png) no-repeat;
+    background-size: 20px 20px;
+}
+
+#share-facebook {
+    background: url(../images/pc/share_face.png) no-repeat;
+    background-size: 20px 20px;
+}
+
+#share-twitter {
+    background: url(../images/pc/share_twit.png) no-repeat;
+    background-size: 20px 20px;
+}
+
+#share-google {
+    background: url(../images/pc/share_goo.png) no-repeat;
+    background-size: 20px 20px;
+}
+
 #header,
 #cover,
 #navbar,
 #footer {
-    font-family: 'Noto Sans KR', sans-serif !important;
+    font-family: 'Kakao', sans-serif !important;
 }
 
 /* list(loop) */
@@ -693,7 +745,7 @@ body.page-template #cover {
 }
 
 body.home-template #cover {
-    background-image: url(../images/default_blog_cover.png);
+    background-image: url(../images/default_blog_cover.jpg);
 }
 
 body.post-template #cover {
@@ -701,11 +753,11 @@ body.post-template #cover {
 }
 
 body.page-template #cover {
-    background-image: url(../images/default_page_cover.png);
+    background-image: url(../images/default_page_cover.jpg);
 }
 
 body.author-template #cover {
-    background-image: url(../images/default_author_cover.png);
+    background-image: url(../images/default_author_cover.jpg);
 }
 
 body.tag-template #cover {
@@ -844,7 +896,7 @@ body.tag-template #navbar {
 #post-content blockquote {
     margin: 28px 0;
     padding: 28px;
-    border-left: 3px solid #006fdf;
+    border-left: 3px solid #f3cf00;
 }
 
 #post-content blockquote > *:first-child {
@@ -897,7 +949,7 @@ body.tag-template #navbar {
 /* @@iolo */
 #post-content table {
     margin: 1em auto;
-    border: 3px solid #24519e;
+    border: 3px solid #f3cf00;
 }
 
 #post-content th {
@@ -1074,6 +1126,17 @@ body.page-template {
 
 }
 
+#forkme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 149px;
+    height: 149px;
+    z-index: 998;
+    background: url(../images/forkme_kakao_tr.png) no-repeat;
+    margin-right: -45px;
+}
+
 #post-content.page {
     border-bottom: none;
 }
@@ -1213,6 +1276,10 @@ body.page-template {
         background-image: url(../images/mo/icon_face.png);
     }
 
+    #links-twitter {
+        background-image: url(../images/mo/icon_twit.png);
+    }
+
     #links-rss {
         background-image: url(../images/mo/icon_rss.png);
     }
@@ -1261,6 +1328,36 @@ body.page-template {
     #link-back {
         background-image: url(../images/mo/icon_larrow.png);
         background-size: 10px 15px;
+    }
+
+    #shares > li > * {
+        width: 22px;
+        height: 22px;
+    }
+
+    #kakao-link-btn {
+        background-image: url(../images/mo/share_talk.png);
+        background-size: 22px 22px;
+    }
+
+    #share-kakaostory {
+        background-image: url(../images/mo/share_story.png);
+        background-size: 22px 22px;
+    }
+
+    #share-facebook {
+        background-image: url(../images/mo/share_face.png);
+        background-size: 22px 22px;
+    }
+
+    #share-twitter {
+        background-image: url(../images/mo/share_twit.png);
+        background-size: 22px 22px;
+    }
+
+    #share-google {
+        background-image: url(../images/mo/share_goo.png);
+        background-size: 22px 22px;
     }
 
     /* list(loop) */
@@ -1522,12 +1619,38 @@ body.page-template {
         background-image: url(../images/mo/icon_face@2x.png);
     }
 
+    #link-twitter {
+        background-image: url(../images/mo/icon_twit@2x.png);
+    }
+
     #link-rss {
         background-image: url(../images/mo/icon_rss@2x.png);
     }
 
     #link-back {
         background-image: url(../images/mo/icon_larrow@2x.png);
+    }
+
+    #kakao-link-btn {
+        background-image: url(../images/mo/share_talk@2x.png);
+        background-size: 22px 22px;
+    }
+
+    #share-kakaostory {
+        background-image: url(../images/mo/share_story@2x.png);
+        background-size: 22px 22px;
+    }
+
+    #share-facebook {
+        background-image: url(../images/mo/share_face@2x.png);
+    }
+
+    #share-twitter {
+        background-image: url(../images/mo/share_twit@2x.png);
+    }
+
+    #share-google {
+        background-image: url(../images/mo/share_goo@2x.png);
     }
 
     #post-list .author-image {
@@ -1586,12 +1709,38 @@ body.page-template {
         background-image: url(../images/mo/icon_face@3x.png);
     }
 
+    #link-twitter {
+        background-image: url(../images/mo/icon_twit@3x.png);
+    }
+
     #link-rss {
         background-image: url(../images/mo/icon_rss@3x.png);
     }
 
     #link-back {
         background-image: url(../images/mo/icon_larrow@3x.png);
+    }
+
+    #kakao-link-btn {
+        background-image: url(../images/mo/share_talk@3x.png);
+        background-size: 22px 22px;
+    }
+
+    #share-kakaostory {
+        background-image: url(../images/mo/share_story@3x.png);
+        background-size: 22px 22px;
+    }
+
+    #share-facebook {
+        background-image: url(../images/mo/share_face@3x.png);
+    }
+
+    #share-twitter {
+        background-image: url(../images/mo/share_twit@3x.png);
+    }
+
+    #share-google {
+        background-image: url(../images/mo/share_goo@3x.png);
     }
 
     #post-list .author-image {

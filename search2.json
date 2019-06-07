@@ -12,6 +12,8 @@ layout: null
       "content"   : {{ post.content | jsonify }}
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
+
+
   {% for page in site.pages %}
     {% if page.title != nil and page.title != 'Tags' %}
 ,
