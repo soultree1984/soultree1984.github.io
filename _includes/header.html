@@ -37,7 +37,7 @@
     <ul class="search__results" id="results-container"></ul>
 
     <ul id="menu" class="nav">
-        <li class="{% if page.url == '' and page.url != '/talk' and page.url != '/about' %} active {% endif %}"><a href="{{ base_path }}/">기술</a></li>
+        <li class="{% if page.url == '/tech'   %} active {% endif %}"><a href="{{ base_path }}/tech">기술</a></li>
         <li class="{% if page.url == '/talk'   %} active {% endif %}"><a href="{{ base_path }}/talk">잡담</a></li>
         <li class="{% if page.url == '/about'  %} active {% endif %}"><a href="{{ base_path }}/about">소개</a></li>
     </ul>
