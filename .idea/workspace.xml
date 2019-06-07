@@ -3,113 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/events/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/openapi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/openapi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/opensource/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/opensource/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/pycon2016apac/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/pycon2016apac/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ES2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES2015/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ES5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ES6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/JavasScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/JavasScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/adt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/adt/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ai/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ai/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/applicative/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/applicative/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/async/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/async/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/blind-recruitment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/blind-recruitment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/clojure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/clojure/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cloudera-manager/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cloudera-manager/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cmux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cmux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cnn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cnn/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/code-festival/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/code-festival/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/coding/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/coding/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/conference/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/conference/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/consul/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/consul/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/container/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/container/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cpp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cpp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/deep-learning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/deep-learning/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/devops/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/devops/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/dns/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/dns/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/docker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/docker/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/etc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/etc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/functional-programming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/functional-programming/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/fzf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/fzf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/github/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/github/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/go/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/hadoop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hadoop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/hbase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hbase/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/java/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/json/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/json/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/kafka/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/kafka/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/kakao/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/kakao/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/khaiii/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/khaiii/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/kubernetes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/kubernetes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/microservice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/microservice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/monad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/monad/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/nand-flash/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/nand-flash/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/network/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/network/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/nomad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/nomad/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/openapi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/openapi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/opensource/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/opensource/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/parallel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/parallel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/programming-contest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/programming-contest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/python/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/reactive-programming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/reactive-programming/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/reactor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/reactor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/recruitment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/recruitment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/redis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/redis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/rest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/rest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ruby/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ruby/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/rxjs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/rxjs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/s2graph/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/s2graph/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/scala/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/scala/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/scalaz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/scalaz/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ssd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ssd/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/storage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/storage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/storm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/storm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/tmux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/tmux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/vim/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/vim/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/web-cache/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/web-cache/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/weekly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/weekly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown4.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown5.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/if-kakao-dev-2018.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/if-kakao-dev-2018.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-for2019-round-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-for2019-round-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-round-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-round-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/khaiii.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/khaiii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/kubernetes-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/kubernetes-deploy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/welcome-to-jekyll.markdown5.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/welcome-to-jekyll.markdown5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/categories/talk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="28" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -151,32 +50,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/tech/2018-09-21-kakao-blind-recruitment-for2019-round-1.md">
+        <entry file="file://$PROJECT_DIR$/categories/tech.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="9" selection-end-line="24" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/categories/tech.md">
+        <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="266">
-                <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -185,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -194,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/_includes/pagination.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -232,11 +124,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/tech/2018-12-13-khaiii.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>site</find>
       <find>default_blog_cover.png</find>
       <find>&quot;cover&quot;</find>
       <find>jquery-1.12.0.min.js</find>
@@ -266,6 +169,7 @@
       <find>soultree1984.github.io</find>
       <find>.posts</find>
       <find>addClass</find>
+      <find>/tech/</find>
     </findStrings>
     <replaceStrings>
       <replace>site.categories.tech</replace>
@@ -277,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/tech/2018-10-17-if-kakao-dev-2018.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2018-10-23-kakao-blind-recruitment-round-2.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2018-12-13-khaiii.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2018-12-24-kubernetes-deploy.md" />
@@ -325,9 +228,10 @@
         <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md" />
         <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/categories/tech.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.md" />
       </list>
     </option>
   </component>
@@ -363,6 +267,12 @@
               <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="tech" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -432,7 +342,7 @@
       <workItem from="1535880484714" duration="4358000" />
       <workItem from="1559833619544" duration="15285000" />
       <workItem from="1559892580134" duration="37967000" />
-      <workItem from="1559932818349" duration="3678000" />
+      <workItem from="1559932818349" duration="4393000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -445,7 +355,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72786000" />
+    <option name="totallyTimeSpent" value="73501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -460,7 +370,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="aws.explorer" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -498,8 +408,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="TEST..." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/tag.html" />
-    <entry file="file://$PROJECT_DIR$/category/talks.md" />
     <entry file="file://$PROJECT_DIR$/category/tech.md" />
     <entry file="file://$PROJECT_DIR$/talks.html" />
     <entry file="file://$PROJECT_DIR$/talks/_posts/2018-08-23-welcome-to-jekyll.markdown.md" />
@@ -695,16 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-23-welcome-to-jekyll.markdown5.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/tech/if-kakao-dev-2018.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -733,27 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/talk.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -767,15 +648,62 @@
     <entry file="file://$PROJECT_DIR$/_includes/pagination.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/talk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="28" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-23-welcome-to-jekyll.markdown5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/tech/2018-12-13-khaiii.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/categories/tech.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="9" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
