@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST..." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +57,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="12" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -256,16 +248,6 @@
             <path>
               <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,7 +324,7 @@
       <workItem from="1535880484714" duration="4358000" />
       <workItem from="1559833619544" duration="15285000" />
       <workItem from="1559892580134" duration="37967000" />
-      <workItem from="1559932818349" duration="4393000" />
+      <workItem from="1559932818349" duration="4636000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -355,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73501000" />
+    <option name="totallyTimeSpent" value="73744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -702,8 +684,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="12" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
