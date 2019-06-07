@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-10-27-welcome-to-jekyll-paginate-v2.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ES2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES2015/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ES5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES5/index.html" afterDir="false" />
@@ -78,9 +75,16 @@
       <change beforePath="$PROJECT_DIR$/_site/tags/vim/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/vim/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/web-cache/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/web-cache/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/weekly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/weekly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/welcome-to-jekyll-paginate-v2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md" beforeDir="false" afterPath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown2.md" beforeDir="false" afterPath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown3.md" beforeDir="false" afterPath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md" beforeDir="false" afterPath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md" beforeDir="false" afterPath="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md" beforeDir="false" afterPath="$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md" beforeDir="false" afterPath="$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,29 +105,119 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <entry file="file://$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <entry file="file://$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown3.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="91" lean-forward="true" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-09-23-welcome-to-jekyll.markdown5.md">
+        <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -175,10 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/talks.md" />
-        <option value="$PROJECT_DIR$/_posts/talks/2018-08-28-employeement-2019.md" />
-        <option value="$PROJECT_DIR$/_posts/talks/2018-09-12-code-festival-2018-round-2.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2018-10-17-if-kakao-dev-2018.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2018-10-23-kakao-blind-recruitment-round-2.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2018-12-13-khaiii.md" />
@@ -196,15 +286,9 @@
         <option value="$PROJECT_DIR$/talks/index.html" />
         <option value="$PROJECT_DIR$/categories/talks.md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-23-welcome-to-jekyll.markdown1.md" />
-        <option value="$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md" />
-        <option value="$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md" />
-        <option value="$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md" />
-        <option value="$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md" />
-        <option value="$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md" />
         <option value="$PROJECT_DIR$/talk/_posts/2018-08-23-welcome-to-jekyll.markdown.md" />
         <option value="$PROJECT_DIR$/talk/_posts/2018-08-28-employeement-2019.md" />
         <option value="$PROJECT_DIR$/talk/_posts/2018-09-12-code-festival-2018-round-2.md" />
-        <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md" />
         <option value="$PROJECT_DIR$/tech/index.html" />
         <option value="$PROJECT_DIR$/talk/index.html" />
         <option value="$PROJECT_DIR$/assets/css/screen.css" />
@@ -215,7 +299,6 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/pagination_talk.html" />
         <option value="$PROJECT_DIR$/_layouts/home_talk.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/categories/talk.md" />
@@ -226,6 +309,17 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_posts/2018-09-23-welcome-to-jekyll.markdown5.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md" />
+        <option value="$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md" />
+        <option value="$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md" />
+        <option value="$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md" />
+        <option value="$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md" />
+        <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md" />
+        <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown2.md" />
+        <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown3.md" />
+        <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md" />
+        <option value="$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md" />
       </list>
     </option>
   </component>
@@ -261,6 +355,17 @@
               <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="talk" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tech" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tech" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -326,7 +431,7 @@
       <workItem from="1535880484714" duration="4358000" />
       <workItem from="1559833619544" duration="15285000" />
       <workItem from="1559892580134" duration="37967000" />
-      <workItem from="1559932818349" duration="1266000" />
+      <workItem from="1559932818349" duration="1651000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -339,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70374000" />
+    <option name="totallyTimeSpent" value="70759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -414,107 +519,13 @@
     <entry file="file://$PROJECT_DIR$/talks.html" />
     <entry file="file://$PROJECT_DIR$/talks/_posts/2018-08-23-welcome-to-jekyll.markdown.md" />
     <entry file="file://$PROJECT_DIR$/talks/index.html" />
-    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/talk/_posts/2018-08-28-employeement-2019.md" />
     <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-12-code-festival-2018-round-2.md" />
     <entry file="file://$PROJECT_DIR$/talk/_posts/2018-08-23-welcome-to-jekyll.markdown.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-23-welcome-to-jekyll.markdown1.md" />
     <entry file="file://$PROJECT_DIR$/_layouts/category.html" />
-    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tech/index.html" />
-    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/talk/index.html" />
-    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -563,13 +574,6 @@
     <entry file="file://$PROJECT_DIR$/_layouts/home_talk.html" />
     <entry file="file://$PROJECT_DIR$/_layouts/home.html" />
     <entry file="file://$PROJECT_DIR$/_layouts/page.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/categories/talk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -647,6 +651,113 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="76">
             <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-09-21-kakao-blind-recruitment-for2019-round-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-10-17-if-kakao-dev-2018.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="91" lean-forward="true" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talk/_posts/2018-09-23-welcome-to-jekyll.markdown5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>

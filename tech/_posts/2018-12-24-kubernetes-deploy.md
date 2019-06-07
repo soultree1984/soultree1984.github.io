@@ -4,7 +4,7 @@ title: 'kubernetes를 이용한 서비스 무중단 배포'
 author: hardy.jung
 date: 2018-12-24 10:00
 tags: [kubernetes]
-categories: tech
+categories: [tech]
 image: /files/covers/kubernetes.png
 ---
 

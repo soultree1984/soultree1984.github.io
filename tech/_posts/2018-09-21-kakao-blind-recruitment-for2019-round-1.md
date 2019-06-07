@@ -3,8 +3,8 @@ layout: post
 title: '2019 카카오 신입 공채 1차 코딩 테스트 문제 해설'
 author: lance.moon
 date: 2018-09-21 11:00
-categories: tech
 tags: [blind-recruitment,coding]
+categories: [tech]
 image: /files/covers/kakao-blind-recruitment-2019.jpg
 ---
 

@@ -3,8 +3,8 @@ layout: post
 title: '2019 카카오 블라인드 공채 2차 오프라인 코딩 테스트 문제 해설'
 author: jesse.ha
 date: 2018-10-23 10:00
-categories: tech
 tags: [kakao, recruitment]
+categories: [tech]
 image: /files/covers/kakao-blind-recruitment-2019.jpg
 ---
 
