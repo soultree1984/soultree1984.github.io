@@ -4,20 +4,9 @@
     <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/events/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/openapi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/openapi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/opensource/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/opensource/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/pycon2016apac/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/pycon2016apac/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ES2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES2015/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ES5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES5/index.html" afterDir="false" />
@@ -50,7 +39,6 @@
       <change beforePath="$PROJECT_DIR$/_site/tags/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/go/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/hadoop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hadoop/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/hbase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hbase/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/java/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/javascript/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/jekyll/index.html" afterDir="false" />
@@ -88,17 +76,6 @@
       <change beforePath="$PROJECT_DIR$/_site/tags/vim/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/vim/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/web-cache/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/web-cache/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/weekly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/weekly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown4.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown5.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/welcome-to-jekyll.markdown5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/if-kakao-dev-2018.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/if-kakao-dev-2018.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-for2019-round-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-for2019-round-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-round-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/kakao-blind-recruitment-round-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/khaiii.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/khaiii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/kubernetes-deploy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/kubernetes-deploy.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,11 +95,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="608">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="41" column="100" selection-start-line="41" selection-start-column="100" selection-end-line="41" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -211,7 +197,6 @@
         <option value="$PROJECT_DIR$/_includes/pagination.html" />
         <option value="$PROJECT_DIR$/_includes/item.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/pagination_talk.html" />
         <option value="$PROJECT_DIR$/_layouts/home_talk.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -223,6 +208,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
       </list>
     </option>
   </component>
@@ -247,7 +233,7 @@
             <path>
               <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +298,7 @@
       <workItem from="1535880484714" duration="4358000" />
       <workItem from="1559833619544" duration="15285000" />
       <workItem from="1559892580134" duration="37967000" />
-      <workItem from="1559932818349" duration="345000" />
+      <workItem from="1559932818349" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -325,7 +311,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69453000" />
+    <option name="totallyTimeSpent" value="69744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -347,12 +333,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18126889" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18126889" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Tail" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32930514" />
       <window_info anchor="bottom" id="NativeScript" order="14" />
       <window_info anchor="bottom" id="Amazon EC2" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
@@ -560,16 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -634,8 +610,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="608">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="100" selection-start-line="41" selection-start-column="100" selection-end-line="41" selection-end-column="100" />
         </state>
       </provider>
     </entry>
