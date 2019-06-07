@@ -1,84 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ES2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES2015/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ES5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ES6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/JavasScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/JavasScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/adt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/adt/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ai/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ai/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/applicative/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/applicative/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/async/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/async/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/blind-recruitment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/blind-recruitment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/clojure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/clojure/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cloudera-manager/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cloudera-manager/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cmux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cmux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cnn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cnn/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/code-festival/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/code-festival/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/coding/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/coding/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/conference/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/conference/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/consul/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/consul/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/container/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/container/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cpp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/cpp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/deep-learning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/deep-learning/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/devops/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/devops/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/dns/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/dns/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/docker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/docker/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/etc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/etc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/functional-programming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/functional-programming/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/fzf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/fzf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/github/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/github/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/go/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/hadoop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hadoop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/hbase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hbase/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/java/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/json/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/json/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/kafka/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/kafka/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/kakao/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/kakao/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/khaiii/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/khaiii/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/kubernetes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/kubernetes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/microservice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/microservice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/monad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/monad/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/nand-flash/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/nand-flash/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/network/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/network/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/nomad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/nomad/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/openapi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/openapi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/opensource/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/opensource/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/parallel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/parallel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/programming-contest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/programming-contest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/python/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/reactive-programming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/reactive-programming/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/reactor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/reactor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/recruitment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/recruitment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/redis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/redis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/rest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/rest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ruby/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ruby/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/rxjs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/rxjs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/s2graph/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/s2graph/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/scala/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/scala/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/scalaz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/scalaz/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ssd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ssd/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/storage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/storage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/storm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/storm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/tmux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/tmux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/vim/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/vim/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/web-cache/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/web-cache/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/weekly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/weekly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/talk.html" beforeDir="false" />
-    </list>
+    <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST..." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="137" selection-start-line="39" selection-start-column="137" selection-end-line="39" selection-end-column="137" />
+            <state relative-caret-position="304">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -215,8 +138,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="825" />
-    <option name="y" value="216" />
+    <option name="x" value="652" />
+    <option name="y" value="82" />
     <option name="width" value="1685" />
     <option name="height" value="870" />
   </component>
@@ -250,7 +173,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535886486737" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -300,7 +223,7 @@
       <workItem from="1535880484714" duration="4358000" />
       <workItem from="1559833619544" duration="15285000" />
       <workItem from="1559892580134" duration="37967000" />
-      <workItem from="1559932818349" duration="716000" />
+      <workItem from="1559932818349" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -313,7 +236,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69824000" />
+    <option name="totallyTimeSpent" value="70082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -619,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="137" selection-start-line="39" selection-start-column="137" selection-end-line="39" selection-end-column="137" />
+        <state relative-caret-position="304">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
