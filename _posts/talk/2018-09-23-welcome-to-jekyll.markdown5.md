@@ -3,7 +3,7 @@ layout: post
 title: 'soultree1984.github.io'
 author: soultree1984
 date: 2017-09-06 00:46
-categories: ["tech"]
+categories: ["talk"]
 tags: 
 - "etc"
 ---
