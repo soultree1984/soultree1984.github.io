@@ -259,7 +259,7 @@
     "tags"     : "",
     "url"      : "/talk/index.html",
     "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination_talk.html %}\n"
+    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n\n\n{% include pagination_talk.html %}\n"
   }
     
   
@@ -271,7 +271,7 @@
     "tags"     : "",
     "url"      : "/talk/page2/index.html",
     "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination_talk.html %}\n"
+    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n\n\n{% include pagination_talk.html %}\n"
   }
     
   
@@ -283,7 +283,7 @@
     "tags"     : "",
     "url"      : "/talk/page3/index.html",
     "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination_talk.html %}\n"
+    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n\n\n{% include pagination_talk.html %}\n"
   }
     
   

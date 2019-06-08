@@ -11,10 +11,6 @@ pagination:
     $("#menu li").removeClass("active").eq(1).addClass("active");
 </script>
 
-<ul id="post-list">
-    {% for post in paginator.posts %}
-        {% include item.html %}
-    {% endfor %}
-</ul>
+
 
 {% include pagination_talk.html %}
