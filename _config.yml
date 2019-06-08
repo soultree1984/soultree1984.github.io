@@ -7,25 +7,30 @@ baseurl: ''
 url: 'https://soultree1984.github.io'
 timezone: Asia/Seoul
 
-repository: kakao/kakao.github.io
+#repository: kakao/kakao.github.io
+repository: soultree1984/soultree1984.github.io
 
-permalink: /:categories/:title
+#permalink: /:categories/:title
+permalink: /:year/:month/:day/:title/
 
 excerpt_separator: <!--more-->
 
 markdown: kramdown
-
-future: true
 
 krandown:
   input: GFM
   highlighter: rouge
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
-paginate: 5
-paginate_path: '/page/:num/'
+pagination:
+  enabled: true
+  per_page: 2
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 
 collections:
   authors:
@@ -35,17 +40,6 @@ collections:
     output: true
     permalink: /tags/:path/
 
-defaults:
-  - scope:
-      path: ''
-      type: authors
-    values:
-      layout: author
-  - scope:
-      path: ''
-      type: tags
-    values:
-      layout: tag
 
 exclude: [README.md, Gemfile, Gemfile.lock]
 

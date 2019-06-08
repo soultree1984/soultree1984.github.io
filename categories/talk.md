@@ -1,10 +1,10 @@
 ---
 layout: home
 image: '/assets/images/cover6.jpg'
-permalink: /talk/
+permalink: "/talk"
 pagination:
     enabled: true
-    category: talk
+    category: "talk"
 ---
 
 <script>
