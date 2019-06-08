@@ -31,6 +31,17 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
 
 collections:
   authors:

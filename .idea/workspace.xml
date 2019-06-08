@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/talk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/talk/page2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/page2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/talk/page3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/page3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tech/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tech/page2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/page2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tech/page3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/page3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/talk.md" beforeDir="false" afterPath="$PROJECT_DIR$/categories/talk.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/categories/talk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -80,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+            <state relative-caret-position="684">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -93,16 +109,16 @@
         <entry file="file://$PROJECT_DIR$/_includes/item.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="24" lean-forward="true" selection-end-line="24" />
+              <caret line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="551">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -111,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -212,11 +228,11 @@
         <option value="$PROJECT_DIR$/tech/_posts/2018-10-23-kakao-blind-recruitment-round-2.md" />
         <option value="$PROJECT_DIR$/tech/_posts/2018-12-13-khaiii.md" />
         <option value="$PROJECT_DIR$/tech/_posts/2018-12-24-kubernetes-deploy.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/categories/tech.md" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/categories/talk.md" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/categories/talk.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -236,11 +252,6 @@
             <path>
               <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soultree1984.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="soultree1984.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -321,7 +332,7 @@
       <workItem from="1559833619544" duration="15285000" />
       <workItem from="1559892580134" duration="37967000" />
       <workItem from="1559932818349" duration="5054000" />
-      <workItem from="1560003040753" duration="10762000" />
+      <workItem from="1560003040753" duration="10975000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -334,7 +345,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84924000" />
+    <option name="totallyTimeSpent" value="85137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1037" height="1118" extended-state="0" />
@@ -721,17 +732,24 @@
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -748,24 +766,17 @@
     <entry file="file://$PROJECT_DIR$/categories/talk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/item.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        <state relative-caret-position="551">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
