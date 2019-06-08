@@ -113,7 +113,7 @@
     "tags"     : "about",
     "url"      : "/about",
     "date"     : "",
-    "content"   : "<hr />\n<h1 id=\"why\">Why</h1>\n\n<blockquote>\n  <p>이 블로그는 제가 개인적으로 공부한 내용들을 정리하기 위해 만든 페이지 입니다.</p>\n</blockquote>\n\n<hr />\n<h1 id=\"profile\">Profile</h1>\n\n<blockquote>\n  <p>풀스택 개발자가 되고 싶고, 언제나 배우고 싶은 호기심 많은 개발자 입니다.<br />\n최근에는 <a href=\"https://vuejs.org/\">Vue</a> 와 <a href=\"https://www.python.org/\">Python</a> 에도 관심이 있습니다.</p>\n</blockquote>\n\n<hr />\n<h1 id=\"projects\">Projects</h1>\n\n<ul>\n  <li>E-Sports 글로벌 홈페이지 구축.</li>\n  <li>게임사 통합 운영 플랫폼 구축.</li>\n  <li>제조업 연구소 차세대 연구 관리 시스템 구축.</li>\n  <li>공동 주택 관리 솔루션 런칭.</li>\n  <li>통신사 기상정보 플랫폼 API 담당.</li>\n  <li>통신사 위치기반 소셜 서비스 런칭.</li>\n</ul>\n\n<hr />\n<h1 id=\"pr--skills\">PR &amp; Skills</h1>\n\n<blockquote>\n  <p>B2C, Admin, REST API, 솔루션, 기업 연구소, 게임사 통합 운영 플랫폼, 글로벌 홈페이지 등 \n<br />\n다양한 종류의 풍부한 프로젝트 수행 경험, 통신사의 위치 기반 소셜 서비스 프로젝트 수행 경험.</p>\n</blockquote>\n\n<ul>\n  <li>Language : Java, HTML, jQuery</li>\n  <li>OS : AWS, Linux, Unix, Windows Server 2003</li>\n  <li>Platform : Spring Boot, Spring, MyBatis, Android</li>\n  <li>Database : MySQL, Oracle</li>\n  <li>Development Tool : Intelli J, Eclipse, Putty, Secure CRT, Oracle Sql Developer, MySQL Workbench,<br />\n                  VM Ware Workstation, Nexacro, Sourcetree, JIRA, Confluence</li>\n  <li>Software Configuration Management : Subversion, Git</li>\n  <li>Debugging Tool : ADB(Android Debug Bridge), Http Watch, Chrome Advanced Rest Client, JSON Viewer</li>\n</ul>\n"
+    "content"   : "<hr />\n<h1 id=\"intro\">Intro</h1>\n<blockquote>\n  <p>이 블로그는 제가 그동안 경험하고 공부했던 내용들을 정리하기 위해 만들었습니다.<br /> \n주로 Spring으로 웹 프로젝트를 수행 했으며, 풀스택 개발자기 되기 위해<br /> \n언제나 노력하는 호기심 많은 11년차 개발자 입니다.<br />\n최근에는 <a href=\"https://vuejs.org/\">Vue</a> 와 <a href=\"https://www.python.org/\">Python</a> 에도 관심이 있습니다.</p>\n</blockquote>\n\n<hr />\n<h1 id=\"projects\">Projects</h1>\n\n<ul>\n  <li>E-Sports 글로벌 홈페이지 구축.</li>\n  <li>게임사 통합 운영 플랫폼 구축.</li>\n  <li>제조업 연구소 차세대 연구 관리 시스템 구축.</li>\n  <li>공동 주택 관리 솔루션 런칭.</li>\n  <li>통신사 기상정보 플랫폼 API 담당.</li>\n  <li>통신사 위치기반 소셜 서비스 런칭.</li>\n</ul>\n\n<hr />\n<h1 id=\"pr--skills\">PR &amp; Skills</h1>\n\n<blockquote>\n  <p>B2C, Admin, REST API, 솔루션, 기업 연구소, 게임사 통합 운영 플랫폼, 글로벌 홈페이지 등 \n<br />\n다양한 종류의 풍부한 프로젝트 수행 경험, 통신사의 위치 기반 소셜 서비스 프로젝트 수행 경험.</p>\n</blockquote>\n\n<ul>\n  <li>Language : Java, HTML, jQuery</li>\n  <li>OS : AWS, Linux, Unix, Windows Server 2003</li>\n  <li>Platform : Spring Boot, Spring, MyBatis, Android</li>\n  <li>Database : MySQL, Oracle</li>\n  <li>Development Tool : Intelli J, Eclipse, Putty, Secure CRT, Oracle Sql Developer, MySQL Workbench,<br />\n                  VM Ware Workstation, Nexacro, Sourcetree, JIRA, Confluence</li>\n  <li>Software Configuration Management : Subversion, Git</li>\n  <li>Debugging Tool : ADB(Android Debug Bridge), Http Watch, Chrome Advanced Rest Client, JSON Viewer</li>\n</ul>\n"
   }
     
   
@@ -190,27 +190,27 @@
     
   
     
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
 ,
   {
-    "title"    : "Refer",
+    "title"    : "Talk",
     "category" : "",
     "tags"     : "refer",
-    "url"      : "/refer",
+    "url"      : "/talks",
     "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown5/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown4/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown3/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown2/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown1/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n</ul>\n"
+    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in site.categories.talk %}\n        {% include item.html %}\n    {% endfor %}\n</ul>"
   }
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
     
   
     

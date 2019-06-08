@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Refer
-permalink: /refer
+title: Talk
+permalink: /talks
 image: '/assets/images/cover6.jpg'
 sitemap: yes
 tags: [refer]

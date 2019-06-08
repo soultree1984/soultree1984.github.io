@@ -147,15 +147,6 @@
   
   
   
-  <url>
-    <loc>http://localhost:4000/refer</loc>
-    
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  
-  
   
   
   
@@ -168,6 +159,15 @@
   
   <url>
     <loc>http://localhost:4000/tags/</loc>
+    
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/talks</loc>
     
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
