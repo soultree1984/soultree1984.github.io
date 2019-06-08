@@ -205,8 +205,8 @@
   {
     "title"    : "soultree1984&#39;s blog",
     "category" : "",
-    "tags"     : "tech",
-    "url"      : "/index.html",
+    "tags"     : "",
+    "url"      : "/tech/index.html",
     "date"     : "",
     "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}\n"
   }
@@ -217,7 +217,7 @@
   {
     "title"    : "soultree1984&#39;s blog",
     "category" : "",
-    "tags"     : "talk",
+    "tags"     : "",
     "url"      : "/talk/index.html",
     "date"     : "",
     "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination_talk.html %}\n"
@@ -230,7 +230,7 @@
     "title"    : "soultree1984&#39;s blog",
     "category" : "",
     "tags"     : "tech",
-    "url"      : "/tech/index.html",
+    "url"      : "/index.html",
     "date"     : "",
     "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}\n"
   }

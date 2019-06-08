@@ -1,18 +1,15 @@
 ---
 layout: home
-image: '/assets/images/cover6.jpg'
-permalink: /talk
-sitemap: yes
-tags: [talk]
+image: '/assets/images/cover4.jpg'
 pagination:
     enabled: true
-    category: talk
+    category: tech
     permalink: page/:num/
     sort_reverse: false
 ---
 
 <script>
-    $("#menu li").removeClass("active").eq(1).addClass("active");
+    $("#menu li").removeClass("active").eq(0).addClass("active");
 </script>
 
 <ul id="post-list">
@@ -21,4 +18,4 @@ pagination:
     {% endfor %}
 </ul>
 
-{% include pagination_talk.html %}
+{% include pagination.html %}
