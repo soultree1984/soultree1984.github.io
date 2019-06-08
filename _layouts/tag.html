@@ -23,6 +23,17 @@ layout: default
                 {% endif %}
             {% endfor %}
         </ul>
-        {% include pagination.html %}
+
+        <!--{% include pagination.html %}-->
+
+        00 {{ paginator }}
+
+        {% assign first = 1 %}
+        {% assign last = paginator.total_pages %}
+
+        {% for p in (first..last) %}
+            1111
+        {% endfor %}
+
     </div>
 </div>

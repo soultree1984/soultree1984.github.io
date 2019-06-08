@@ -24,12 +24,14 @@ krandown:
 plugins:
   - jekyll-paginate-v2
 
+# Pagination Settings
 pagination:
   enabled: true
   per_page: 2
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
 
 defaults:
   - scope:
