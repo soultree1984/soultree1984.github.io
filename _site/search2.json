@@ -113,7 +113,7 @@
     "tags"     : "about",
     "url"      : "/about",
     "date"     : "",
-    "content"   : "<hr />\n<h1 id=\"profile\">Profile</h1>\n\n<p>풀스택 개발자가 되고 싶고, 언제나 배우고 싶은 호기심 많은 개발자 입니다.<br />\n최근에는 <a href=\"https://vuejs.org/\">Vue</a> 와 <a href=\"https://www.python.org/\">Python</a> 에도 관심이 있습니다.</p>\n\n<hr />\n<h1 id=\"projects\">Projects</h1>\n\n<ul>\n  <li>E-Sports 글로벌 홈페이지 구축.</li>\n  <li>게임사 통합 운영 플랫폼 구축.</li>\n  <li>제조업 연구소 차세대 연구 관리 시스템 구축.</li>\n  <li>공동 주택 관리 솔루션 런칭.</li>\n  <li>통신사 기상정보 플랫폼 API 담당.</li>\n  <li>통신사 위치기반 소셜 서비스 런칭.</li>\n</ul>\n\n<hr />\n<h1 id=\"pr\">PR</h1>\n\n<blockquote>\n  <p>B2C, Admin, REST API, 솔루션, 기업 연구소, 게임사 통합 운영 플랫폼, 글로벌 홈페이지 등 \n<br />\n다양한 종류의 풍부한 프로젝트 수행 경험, 통신사의 위치 기반 소셜 서비스 프로젝트 수행 경험.</p>\n</blockquote>\n"
+    "content"   : "<hr />\n<h1 id=\"why\">Why</h1>\n\n<blockquote>\n  <p>이 블로그는 제가 개인적으로 공부한 내용들을 정리하기 위해 만든 페이지 입니다.</p>\n</blockquote>\n\n<hr />\n<h1 id=\"profile\">Profile</h1>\n\n<blockquote>\n  <p>풀스택 개발자가 되고 싶고, 언제나 배우고 싶은 호기심 많은 개발자 입니다.<br />\n최근에는 <a href=\"https://vuejs.org/\">Vue</a> 와 <a href=\"https://www.python.org/\">Python</a> 에도 관심이 있습니다.</p>\n</blockquote>\n\n<hr />\n<h1 id=\"projects\">Projects</h1>\n\n<ul>\n  <li>E-Sports 글로벌 홈페이지 구축.</li>\n  <li>게임사 통합 운영 플랫폼 구축.</li>\n  <li>제조업 연구소 차세대 연구 관리 시스템 구축.</li>\n  <li>공동 주택 관리 솔루션 런칭.</li>\n  <li>통신사 기상정보 플랫폼 API 담당.</li>\n  <li>통신사 위치기반 소셜 서비스 런칭.</li>\n</ul>\n\n<hr />\n<h1 id=\"pr--skills\">PR &amp; Skills</h1>\n\n<blockquote>\n  <p>B2C, Admin, REST API, 솔루션, 기업 연구소, 게임사 통합 운영 플랫폼, 글로벌 홈페이지 등 \n<br />\n다양한 종류의 풍부한 프로젝트 수행 경험, 통신사의 위치 기반 소셜 서비스 프로젝트 수행 경험.</p>\n</blockquote>\n\n<ul>\n  <li>Language : Java, HTML, jQuery</li>\n  <li>OS : AWS, Linux, Unix, Windows Server 2003</li>\n  <li>Platform : Spring Boot, Spring, MyBatis, Android</li>\n  <li>Database : MySQL, Oracle</li>\n  <li>Development Tool : Intelli J, Eclipse, Putty, Secure CRT, Oracle Sql Developer, MySQL Workbench,<br />\n                  VM Ware Workstation, Nexacro, Sourcetree, JIRA, Confluence</li>\n  <li>Software Configuration Management : Subversion, Git</li>\n  <li>Debugging Tool : ADB(Android Debug Bridge), Http Watch, Chrome Advanced Rest Client, JSON Viewer</li>\n</ul>\n"
   }
     
   
@@ -138,6 +138,18 @@
     "url"      : "/events/",
     "date"     : "",
     "content"   : "<h2 id=\"주최-if-kakao-개발자-컨퍼런스-2018\">[주최] if kakao 개발자 컨퍼런스 2018</h2>\n\n<ul>\n  <li><a href=\"https://if.kakao.com\">https://if.kakao.com/</a></li>\n  <li>일정: 2018년 9월 4일</li>\n  <li>장소: 서울 삼성동 COEX 그랜드볼룸</li>\n</ul>\n\n<h2 id=\"주최-카카오-code-festival-2018\">[주최] 카카오 Code Festival 2018</h2>\n\n<ul>\n  <li><a href=\"https://www.kakaocode.com\">https://www.kakaocode.com/</a></li>\n  <li>온라인 예선: 2018년 8월 4일(토) 오후 1시~7시</li>\n  <li>오프라인 본선: 2018년 8월 25일(토) 오후 1시~6시</li>\n  <li>장소: 카카오 판교 오피스</li>\n  <li>내용: 카카오에서 준비한 대학(원)생 프로그래밍 경진대회</li>\n</ul>\n\n<blockquote>\n  <p><strong>[행사 후기 및 문제 해설]</strong></p>\n\n  <ul>\n    <li><a href=\"https://brunch.co.kr/@andkakao/67\">즐거운 알고리듬 축제, 카카오 코드 페스티벌</a></li>\n    <li><a href=\"http://tech.kakao.com/2018/08/09/code-festival-2018-round-1/\">카카오 코드 페스티벌 2018 예선전 이야기</a></li>\n    <li><a href=\"http://tech.kakao.com/2018/09/12/code-festival-2018-round-2/\">카카오 코드 페스티벌 2018 본선 이야기</a></li>\n  </ul>\n</blockquote>\n\n<h2 id=\"주최-카카오-code-festival-2017\">[주최] 카카오 Code Festival 2017</h2>\n\n<ul>\n  <li>온라인 예선: 2017년 8월 5일(토) 오후 1시~7시</li>\n  <li>오프라인 본선: 2017년 9월 9일(토) 오후 1시~6시</li>\n  <li>장소: 성남시 경기창조경제혁신센터</li>\n  <li>내용: 카카오에서 준비한 대학(원)생 프로그래밍 경진대회</li>\n</ul>\n\n<blockquote>\n  <p><strong>[행사 후기 및 문제 해설]</strong></p>\n\n  <ul>\n    <li><a href=\"http://blog.kakaocorp.co.kr/648\">카카오 코드 페스티벌, 본선의 막이 열리다!</a></li>\n    <li><a href=\"http://tech.kakao.com/2017/08/11/code-festival-round-1/\">카카오 코드 페스티벌 예선전 이야기</a></li>\n    <li><a href=\"http://tech.kakao.com/2017/09/14/code-festival-round-2/\">카카오 코드 페스티벌 본선 이야기</a></li>\n  </ul>\n</blockquote>\n\n<h2 id=\"후원-pycon-apac-2016\">[후원] PyCon APAC 2016</h2>\n\n<ul>\n  <li><a href=\"https://www.pycon.kr/2016apac/\">https://www.pycon.kr/2016apac/</a></li>\n  <li>일정: 2016년 8월 13일 ~ 15일</li>\n  <li>장소: 강남구 코엑스 전시장</li>\n  <li>주최: 파이콘 한국 준비 위원회</li>\n</ul>\n\n<blockquote>\n  <p><strong>[후원 후기]</strong></p>\n\n  <ul>\n    <li><a href=\"http://tech.kakao.com/2016/08/19/gawibawibo/\">CODING BATTLE 가위바위보! - 못다한 이야기</a></li>\n    <li><a href=\"http://tech.kakao.com/pycon2016apac\">CODING BATTLE 가위바위보 이벤트 페이지</a></li>\n  </ul>\n</blockquote>\n\n<h2 id=\"후원-rtfm-나는-프로그래머다\">[후원] RT:FM 나는 프로그래머다</h2>\n\n<ul>\n  <li><a href=\"http://onoffmix.com/event/55258\">http://onoffmix.com/event/55258</a></li>\n  <li>일정: 2016년 6월 24일(금) 12:30~ 20:40</li>\n  <li>장소: 더케이트윈타워 A동 11층</li>\n  <li>주최: 한빛미디어, 나는 프로그래머다</li>\n</ul>\n\n<h2 id=\"후원-우리가-데이터를-쓰는-법how-we-use-data\">[후원] 우리가 데이터를 쓰는 법(How We Use Data)</h2>\n\n<ul>\n  <li>주최: <a href=\"http://www.gonnector.com\">고넥터(Gonnector)</a></li>\n  <li>일정: 2016년 04월 12일</li>\n  <li>장소: 역삼동 MARU180</li>\n</ul>\n\n<h2 id=\"후원-playnode-2015\">[후원] PlayNode 2015</h2>\n\n<ul>\n  <li><a href=\"http://playnode.io\">http://playnode.io</a></li>\n  <li>일정: 2015년 11월 12일</li>\n  <li>장소: 신대방동 전문건설회관</li>\n</ul>\n\n<h2 id=\"주최-api-bootcamp-2014\">[주최] API BootCamp 2014</h2>\n\n<ul>\n  <li>일시: 2014년 5월 10일(토)</li>\n  <li>장소: 다음커뮤니케이션 한남오피스 5F</li>\n  <li>내용: 주요 API 및 모바일 SDK 소개 및 실습(센서, 음성인식/로그인, OAuth 2.0 …)</li>\n</ul>\n\n<h2 id=\"후원-firefox-개발자-콘퍼런스-2014\">[후원] Firefox 개발자 콘퍼런스 2014</h2>\n\n<ul>\n  <li><a href=\"http://www.mozilla.or.kr/devcon/2014/\">http://www.mozilla.or.kr/devcon/2014/</a></li>\n  <li>일시: 2014년 4월 10일(목)</li>\n  <li>장소: 코엑스 콘퍼런스 센터 317호</li>\n</ul>\n\n<h2 id=\"주최-api-미트업-2014\">[주최] API 미트업 2014</h2>\n\n<ul>\n  <li>일시: 2014년 4월 8일(화)</li>\n  <li>장소: 역삼동 D.Camp</li>\n  <li>내용: 글로벌 API 서비스 동향 및 Daum API에 대한 발표</li>\n</ul>\n\n<h2 id=\"후원-ms-이매진컵-2014-국가대표-선발전\">[후원] MS 이매진컵 2014, 국가대표 선발전</h2>\n\n<ul>\n  <li>일시: 2014년 3월 27일(목) ~ 28일(금)</li>\n  <li>장소: 부산 동서대학교 센텀캠퍼스 소향씨어터</li>\n</ul>\n\n<h2 id=\"주최-devday-15th\">[주최] Devday 15th</h2>\n\n<ul>\n  <li>일시: 2014년 2월 28 ~ 29일</li>\n  <li>장소: 제주 스페이스.1</li>\n  <li>내용: 오픈 API를 이용한 창의적인 아이디어 구현과 개발자간 교류 확대</li>\n</ul>\n\n<h2 id=\"주최-devon-2013\">[주최] Devon 2013</h2>\n\n<ul>\n  <li>일시: 2013년 10월 26 ~ 27일</li>\n  <li>장소: 코엑스 전시장(Hall D1)</li>\n</ul>\n\n<h2 id=\"주최-devon-2012\">[주최] Devon 2012</h2>\n\n<ul>\n  <li>일시: 2012년 10월 12일</li>\n  <li>장소: 신도림 디큐브시티</li>\n</ul>\n\n<h2 id=\"주최-devon-2011\">[주최] Devon 2011</h2>\n\n<ul>\n  <li>일시: 2011년 11월 25일</li>\n  <li>장소: 신림동 쉐라톤서울 호텔 디큐브시티</li>\n</ul>\n"
+  }
+    
+  
+    
+,
+  {
+    "title"    : "Tech",
+    "category" : "",
+    "tags"     : "",
+    "url"      : "/",
+    "date"     : "",
+    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n\n    \n\n        <li class=\"post-item post \">\n    <a href=\"/2018/12/24/kubernetes-deploy/\">\n        <h3 class=\"post-title\">kubernetes를 이용한 서비스 무중단 배포</h3>\n        <p class=\"post-excerpt\">Kubernetes는 컨테이너 오케스트레이션 영역에서 거의 표준으로 자리 잡은 오픈소스 시스템입니다. kubernetes를 사용하게 되면 여러대의 노드를 하나의 클러스터로 묶어서 사용가능하게 됩니다. 클러스터를 구성하는 노드들중에 일부에 장애가 발생하더라도 장애가 난 곳에 있던 컨테이너가 kubernetes에 의해 다른 정상상태의 노드로 옮겨가게 되어서 컨테이너로 제공하던 서비스에 지장이 없이 서비스가 지속될 수 있게 해줍니다. 그래서 실제로 서비스를 운영할 때는 컨테이너만을 단독으로 사용하기 보다는 이런 오케스트레이터와 함께 사용하는 경우가 많습니다. kubernetes를 사용하면 배포를 보다 편리하게 할 수 있다는 장점도 있습니다. 앱을 실행할...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/kubernetes\" title=\"kubernetes\"\n               class=\"tag tag-kubernetes\">kubernetes</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/hardy.jung\">\n            <div class=\"author-image\"\n                 >\n                <span class=\"sr-only\">'s profile image</span>\n            </div>\n            <p class=\"author-name\"></p>\n        </a>\n        <p class=\"post-date\">2018-12-24 10:00</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n\n    \n\n        <li class=\"post-item post \">\n    <a href=\"/2018/12/13/khaiii/\">\n        <h3 class=\"post-title\">kakao의 오픈소스 Ep9 - Khaiii : 카카오의 딥러닝 기반 형태소 분석기</h3>\n        <p class=\"post-excerpt\">“카카오의 오픈소스를 소개합니다” 아홉 번째는 jamie.lim과 자연어 처리 파트 동료들이 함께 개발한 khaiii(Kakao Hangul Analyzer III)입니다. khaiii는 세종 코퍼스를 이용하여 CNN(Convolutional Neural Network, 합성곱 신경망) 기술을 적용해 학습한 형태소 분석기입니다. 디코더를 C++로 구현하여 GPU 없이도 비교적 빠르게 동작하며, Python 바인딩을 제공하고 있어서 편리하게 사용하실 수 있습니다. 앞으로 오픈소스 생태계를 통해 자연어 처리를 연구하는 분들께 도움이 되고, 또한 부족한 부분에 대해 도움을 받을 수 있으면 좋겠습니다. 아래는 카카오 AI 리포트에 포스팅한 카카오의 딥러닝 기반 형태소 분석기를...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/opensource\" title=\"opensource\"\n               class=\"tag tag-opensource\">opensource</a>\n        \n            <a href=\"/tags/khaiii\" title=\"khaiii\"\n               class=\"tag tag-khaiii\">khaiii</a>\n        \n            <a href=\"/tags/deep-learning\" title=\"deep-learning\"\n               class=\"tag tag-deep-learning\">deep-learning</a>\n        \n            <a href=\"/tags/cnn\" title=\"cnn\"\n               class=\"tag tag-cnn\">cnn</a>\n        \n            <a href=\"/tags/ai\" title=\"ai\"\n               class=\"tag tag-ai\">ai</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/jamie.lim\">\n            <div class=\"author-image\"\n                 >\n                <span class=\"sr-only\">'s profile image</span>\n            </div>\n            <p class=\"author-name\"></p>\n        </a>\n        <p class=\"post-date\">2018-12-13 10:00</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n\n    \n\n        <li class=\"post-item post \">\n    <a href=\"/2018/10/23/kakao-blind-recruitment-round-2/\">\n        <h3 class=\"post-title\">2019 카카오 블라인드 공채 2차 오프라인 코딩 테스트 문제 해설</h3>\n        <p class=\"post-excerpt\">지난 10월 6일(토) 2019 블라인드 공채 오프라인 2차 코딩테스트가 진행되었습니다. 작년에는 8시간 동안 온라인으로 진행한 것과는 달리 오프라인으로 5시간 동안 치러졌는데요, 어떤 의도로 출제하였는지 살펴보겠습니다. 작년 2차 코딩테스트 회고 작년 문제 출제 의도를 기억하시는지요? 온라인 2차 코딩 테스트 문제 출제 위원회에서는, - 탄탄한 기본기를 바탕으로 새로운 것을 빠르게 습득하는 역량 - 요구사항을 꼼꼼하게 분석하고, 트레이드오프를 고려하여 디자인하여 구현하는 역량 - 결과를 모니터링하며 점진적으로 개선해나가는 역량 을 테스트할 수 있도록 2차 문제에 녹여내고자 하였습니다. 작년 문제에는...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/kakao\" title=\"kakao\"\n               class=\"tag tag-kakao\">kakao</a>\n        \n            <a href=\"/tags/recruitment\" title=\"recruitment\"\n               class=\"tag tag-recruitment\">recruitment</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/jesse.ha\">\n            <div class=\"author-image\"\n                 >\n                <span class=\"sr-only\">'s profile image</span>\n            </div>\n            <p class=\"author-name\"></p>\n        </a>\n        <p class=\"post-date\">2018-10-23 10:00</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n\n    \n\n        <li class=\"post-item post \">\n    <a href=\"/2018/10/17/if-kakao-dev-2018/\">\n        <h3 class=\"post-title\">if kakao 2018 동영상을 공개합니다.</h3>\n        <p class=\"post-excerpt\">지난 9월 4일, 코엑스 그랜드볼룸에서 카카오의 개발자 콘퍼런스인 if kakao 2018이 성황리에 마쳤습니다. 카카오 이름을 건 첫 번째 개발자 콘퍼런스인 if kakao 2018은 인공지능, 메신저, 택시, 결제/송금, 검색 등 수많은 영역에서 쌓은 카카오의 기술과 노하우를 외부에 공유하고 소통하는 자리였구요. 신정환 CTO와 김병학 AI Lab 총괄 부사장의 기조연설과 인공지능, 머신러닝, 멀티미디어 처리, 챗봇, 클라우드, 오픈소스, 추천 등 다양한 주제의 27개 강연 세션을 진행했으며, 카카오의 서비스를 만드는 현직 개발자들이 실제 개발 사례를 중심으로 기술과 노하우를 생생하게 전달하려고...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/conference\" title=\"conference\"\n               class=\"tag tag-conference\">conference</a>\n        \n            <a href=\"/tags/coding\" title=\"coding\"\n               class=\"tag tag-coding\">coding</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/hunter.jo\">\n            <div class=\"author-image\"\n                 >\n                <span class=\"sr-only\">'s profile image</span>\n            </div>\n            <p class=\"author-name\"></p>\n        </a>\n        <p class=\"post-date\">2018-10-17 17:00</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n\n    \n\n        <li class=\"post-item post \">\n    <a href=\"/2018/09/21/kakao-blind-recruitment-for2019-round-1/\">\n        <h3 class=\"post-title\">2019 카카오 신입 공채 1차 코딩 테스트 문제 해설</h3>\n        <p class=\"post-excerpt\">작년에 이어 올해도 블라인드 전형으로 카카오 개발 신입 공채가 시작되었습니다! 그 첫 번째 관문으로 1차 온라인 코딩 테스트가 지난 9월 15일(토) 오후 2시부터 7시까지 5시간 동안 치러졌는데요. 지원자분들 만큼이나 준비위원들도 테스트가 문제없이, 공정하게 치러질 수 있도록 많은 준비를 했고 두근 거리는 마음으로 끝까지 온라인 테스트를 모니터링했답니다. 문제는 작년과 비슷하게 구현 문제 위주로 쉬운 난이도에서 어려운 난이도 순으로 풀 수 있도록 차례대로 배치했고, 모든 테스트 케이스가 통과해야 문제를 풀이한 것으로 인정되도록 했습니다. 단, 작년과는 다르게 효율성...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/blind-recruitment\" title=\"blind-recruitment\"\n               class=\"tag tag-blind-recruitment\">blind-recruitment</a>\n        \n            <a href=\"/tags/coding\" title=\"coding\"\n               class=\"tag tag-coding\">coding</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/lance.moon\">\n            <div class=\"author-image\"\n                 >\n                <span class=\"sr-only\">'s profile image</span>\n            </div>\n            <p class=\"author-name\"></p>\n        </a>\n        <p class=\"post-date\">2018-09-21 11:00</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n\n    \n\n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown5/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\"\n               class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\"\n                 style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n\n    \n\n</ul>\n\n<!--\n<ul id=\"pagination\" role=\"navigation\">\n    \n        \n        \n            <li id=\"page-prev\" class=\"disabled\"><span class=\"sr-only\">No Previous Page</span></li>\n        \n        \n            \n                <li class=\"page-number active\">1</li>\n                \n        \n            \n                <li class=\"page-number\"><a\n                            href=\"/page/2\">2</a></li>\n            \n        \n        \n            <li id=\"page-next\"><a href=\"/page/2\"><span class=\"sr-only\">Next Page</span></a>\n            </li>\n        \n    \n</ul>\n-->\n"
   }
     
   
@@ -178,148 +190,38 @@
     
   
     
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
 ,
   {
-    "title"    : "soultree1984&#39;s blog",
+    "title"    : "Refer",
     "category" : "",
-    "tags"     : "",
-    "url"      : "/index.html",
+    "tags"     : "refer",
+    "url"      : "/refer",
     "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}"
+    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown4/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown3/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown2/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n        <li class=\"post-item post \">\n    <a href=\"/2017/09/06/welcome-to-jekyll.markdown1/\">\n        <h3 class=\"post-title\">soultree1984.github.io</h3>\n        <p class=\"post-excerpt\">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary...</p>\n    </a>\n    <p class=\"post-tags\">\n        \n            <a href=\"/tags/etc\" title=\"etc\" class=\"tag tag-etc\">etc</a>\n        \n    </p>\n    <div class=\"post-meta\">\n        \n        <a href=\"/authors/soultree1984\">\n            <div class=\"author-image\" style=\"background-image:url(/files/authors/profile2.jpg);\">\n                <span class=\"sr-only\">soultree1984's profile image</span>\n            </div>\n            <p class=\"author-name\">soultree1984</p>\n        </a>\n        <p class=\"post-date\">2017-09-06 00:46</p>\n    </div>\n    <!--<div class=\"clearfix\"></div>-->\n</li>\n\n    \n</ul>\n"
   }
     
   
     
-,
-  {
-    "title"    : "soultree1984&#39;s blog - page 2",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/page2/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}"
-  }
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
 ,
   {
-    "title"    : "soultree1984&#39;s blog - page 3",
+    "title"    : "Tech",
     "category" : "",
     "tags"     : "",
-    "url"      : "/page3/index.html",
+    "url"      : "/page/2/",
     "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog - page 4",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/page4/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog - page 5",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/page5/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/talk/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination_talk.html %}\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog - page 2",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/talk/page2/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination_talk.html %}\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog - page 3",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/talk/page3/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(1).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination_talk.html %}\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/tech/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog - page 2",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/tech/page2/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "soultree1984&#39;s blog - page 3",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/tech/page3/index.html",
-    "date"     : "",
-    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n    {% for post in paginator.posts %}\n        {% include item.html %}\n    {% endfor %}\n</ul>\n\n{% include pagination.html %}\n"
+    "content"   : "<script>\n    $(\"#menu li\").removeClass(\"active\").eq(0).addClass(\"active\");\n</script>\n\n<ul id=\"post-list\">\n\n    {% for post in site.categories.tech %}\n\n        {% include item.html %}\n\n    {% endfor %}\n\n</ul>\n\n<!--\n{% include pagination.html %}-->\n"
   }
     
   

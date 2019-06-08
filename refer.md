@@ -1,10 +1,10 @@
 ---
 layout: home
+title: Refer
+permalink: /refer
 image: '/assets/images/cover6.jpg'
-permalink: "/talk"
-pagination:
-    enabled: true
-    category: "talk"
+sitemap: yes
+tags: [refer]
 ---
 
 <script>
@@ -12,9 +12,7 @@ pagination:
 </script>
 
 <ul id="post-list">
-    {% for post in paginator.posts %}
+    {% for post in site.categories.talk %}
         {% include item.html %}
     {% endfor %}
 </ul>
-
-{% include pagination_talk.html %}

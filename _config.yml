@@ -22,16 +22,11 @@ krandown:
   highlighter: rouge
 
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 2
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-
+# PAGINATION
+paginate: 5
+paginate_path: "/page/:num"
 
 defaults:
   - scope:
