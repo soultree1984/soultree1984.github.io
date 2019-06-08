@@ -4,8 +4,9 @@ title: 'kubernetes를 이용한 서비스 무중단 배포'
 author: hardy.jung
 date: 2018-12-24 10:00
 tags: [kubernetes]
-categories: [tech]
 image: /files/covers/kubernetes.png
+categories:
+  - tech
 ---
 
 Kubernetes는 컨테이너 오케스트레이션 영역에서 거의 표준으로 자리 잡은 오픈소스 시스템입니다. kubernetes를 사용하게 되면 여러대의 노드를 하나의 클러스터로 묶어서 사용가능하게 됩니다. 클러스터를 구성하는 노드들중에 일부에 장애가 발생하더라도 장애가 난 곳에 있던 컨테이너가 kubernetes에 의해 다른 정상상태의 노드로 옮겨가게 되어서 컨테이너로 제공하던 서비스에 지장이 없이 서비스가 지속될 수 있게 해줍니다. 그래서 실제로 서비스를 운영할 때는 컨테이너만을 단독으로 사용하기 보다는 이런 오케스트레이터와 함께 사용하는 경우가 많습니다.

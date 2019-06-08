@@ -4,8 +4,9 @@ title: '2019 카카오 블라인드 공채 2차 오프라인 코딩 테스트 �
 author: jesse.ha
 date: 2018-10-23 10:00
 tags: [kakao, recruitment]
-categories: [tech]
 image: /files/covers/kakao-blind-recruitment-2019.jpg
+categories:
+  - tech
 ---
 
 지난 10월 6일(토) 2019 블라인드 공채 오프라인 2차 코딩테스트가 진행되었습니다. 작년에는 8시간 동안 온라인으로 진행한 것과는 달리 오프라인으로 5시간 동안 치러졌는데요, 어떤 의도로 출제하였는지 살펴보겠습니다.

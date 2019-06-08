@@ -1,6 +1,7 @@
 ---
 layout: home
 image: '/assets/images/cover4.jpg'
+permalink: /tech/
 pagination:
     enabled: true
     category: tech
@@ -16,4 +17,4 @@ pagination:
     {% endfor %}
 </ul>
 
-<!--{% include pagination.html %}-->
+{% include pagination.html %}

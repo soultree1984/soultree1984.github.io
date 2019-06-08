@@ -1,6 +1,7 @@
 ---
 layout: home
 image: '/assets/images/cover6.jpg'
+permalink: /talk/
 pagination:
     enabled: true
     category: talk
@@ -16,4 +17,4 @@ pagination:
     {% endfor %}
 </ul>
 
-<!--{% include pagination_talk.html %}-->
+{% include pagination_talk.html %}
