@@ -255,7 +255,7 @@ DEPENDENCIES
   github-pages
   jekyll (~> 3.0)
   jekyll-feed
-  jekyll-paginate-v2 (~> 1.7)
+  jekyll-paginate-v2
   minima (~> 2.0)
   tzinfo-data
   wdm (>= 0.1.0)

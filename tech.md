@@ -1,6 +1,6 @@
 ---
 layout: home
-image: '/assets/images/cover6.jpg'
+image: '/assets/images/cover4.jpg'
 permalink: /tech
 sitemap: yes
 tags: [tech]
