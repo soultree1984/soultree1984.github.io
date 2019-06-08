@@ -143,6 +143,8 @@
   
   
   
+  
+  
   <url>
     <loc>http://localhost:4000/openapi/</loc>
     
@@ -179,24 +181,6 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
