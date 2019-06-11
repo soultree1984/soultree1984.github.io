@@ -11,7 +11,7 @@ timezone: Asia/Seoul
 repository: soultree1984/soultree1984.github.io
 
 #permalink: /:categories/:title
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 
 excerpt_separator: <!--more-->
 

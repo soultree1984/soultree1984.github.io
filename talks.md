@@ -13,6 +13,6 @@ tags: [refer]
 
 <ul id="post-list">
     {% for post in site.categories.talk %}
-        {% include item.html %}
+        {% include item_talks.html %}
     {% endfor %}
 </ul>
