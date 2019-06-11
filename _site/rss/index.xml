@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/rss" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jun 2019 04:46:34 +0900</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2019 04:46:34 +0900</lastBuildDate>
+    <pubDate>Wed, 12 Jun 2019 04:52:13 +0900</pubDate>
+    <lastBuildDate>Wed, 12 Jun 2019 04:52:13 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -20,7 +20,7 @@
 
 &lt;p&gt;순간 나는 “Map 인터페이스를 구현한 클래스가 HashMap 입니다.” 라고 대답을 했는데,&lt;/p&gt;
 
-&lt;p&gt;면접관은 아무말도없이 고개만 끄덕였는데, 지금 생각해봐도 저걸 왜물어봤는지 이해가 되질 않는다.&lt;/p&gt;
+&lt;p&gt;면접관은 아무말도없이 고개만 끄덕였는데 지금 생각해봐도 저걸 왜물어봤는지 이해가 되질 않는다.&lt;/p&gt;
 
 &lt;h1 id=&quot;hashmap-과-hashtable-의-차이점을-알고-있나요&quot;&gt;“HashMap 과 HashTable 의 차이점을 알고 있나요?”&lt;/h1&gt;
 
@@ -29,14 +29,12 @@
 &lt;p&gt;Map 인터페이스를 구현한 클래스는 꽤나 여러가지가 있다.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Jun 2019 02:37:00 +0900</pubDate>
-        <link>http://localhost:4000/tech/khaiii/</link>
-        <guid isPermaLink="true">http://localhost:4000/tech/khaiii/</guid>
+        <link>http://localhost:4000/tech/java-map-hashmap-diffrent/</link>
+        <guid isPermaLink="true">http://localhost:4000/tech/java-map-hashmap-diffrent/</guid>
         
-        <category>면접질문</category>
+        <category>interview</category>
         
-        <category>Java</category>
-        
-        <category>Map</category>
+        <category>java</category>
         
         
         <category>tech</category>
