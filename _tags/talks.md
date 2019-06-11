@@ -1,4 +1,4 @@
 ---
 name: talks
-title: 'Talks'
+title: '주저리 주저리'
 ---
