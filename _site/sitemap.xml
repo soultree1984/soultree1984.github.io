@@ -4,96 +4,6 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>http://localhost:4000/2018/12/24/kubernetes-deploy/</loc>
-    
-    <lastmod>2018-12-24T10:00:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2018/12/13/khaiii/</loc>
-    
-    <lastmod>2018-12-13T10:00:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2018/10/23/kakao-blind-recruitment-round-2/</loc>
-    
-    <lastmod>2018-10-23T10:00:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2018/10/17/if-kakao-dev-2018/</loc>
-    
-    <lastmod>2018-10-17T17:00:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2018/09/21/kakao-blind-recruitment-for2019-round-1/</loc>
-    
-    <lastmod>2018-09-21T11:00:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2017/09/06/welcome-to-jekyll.markdown5/</loc>
-    
-    <lastmod>2017-09-06T00:46:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2017/09/06/welcome-to-jekyll.markdown4/</loc>
-    
-    <lastmod>2017-09-06T00:46:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2017/09/06/welcome-to-jekyll.markdown3/</loc>
-    
-    <lastmod>2017-09-06T00:46:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2017/09/06/welcome-to-jekyll.markdown2/</loc>
-    
-    <lastmod>2017-09-06T00:46:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/2017/09/06/welcome-to-jekyll.markdown1/</loc>
-    
-    <lastmod>2017-09-06T00:46:00+09:00</lastmod>
-    
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
   
   
   
@@ -172,8 +82,6 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  
   
   
   
