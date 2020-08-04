@@ -6,49 +6,39 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/rss" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Aug 2020 00:21:54 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2020 00:21:54 +0900</lastBuildDate>
+    <pubDate>Wed, 05 Aug 2020 04:51:20 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Aug 2020 04:51:20 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Map과 HashMap 의 차이점은 무엇인가요?</title>
+        <title>Map과 HashMap의 차이점은 무엇인가요?</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;Map과 HashMap 의 차이점은 무엇인가요?&lt;/p&gt;
+  &lt;p&gt;Map과 HashMap의 차이점은 무엇인가요?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;언젠가 면접 보러 갔을 때 1차 기술면접 자리에서 면접관이 나에게 했던 질문이었다.&lt;/p&gt;
+&lt;p&gt;몇 년전 모회사에 면접 보러 갔을 때 1차 기술면접 자리에서 면접관이 나에게 했던 질문이었다.&lt;br /&gt;
+순간 나는 “&lt;strong&gt;Map&lt;/strong&gt; 인터페이스를 구현한 클래스가 &lt;strong&gt;HashMap&lt;/strong&gt; 입니다.” 라고 대답을 했는데,&lt;br /&gt;
+면접관은 아무런 말도 없이 고개만 끄덕였고 지금 생각해봐도 저걸 왜 물어봤는지 도무지 모르겠다.&lt;br /&gt;
+설마 저 대답을 원한건 아니었기를… 횡설수설한 기억 뿐인 면접이었지만 의외로 1차는 합격을 했고,&lt;br /&gt;
+최종 2차에서 떨어졌다. 😱&lt;/p&gt;
 
-&lt;p&gt;순간 나는 “Map 인터페이스를 구현한 클래스가 HashMap 입니다.” 라고 대답을 했는데,&lt;/p&gt;
+&lt;h2 id=&quot;그럼-hashmap-은-어떻게-동작하나요&quot;&gt;“그럼 HashMap 은 어떻게 동작하나요?”&lt;/h2&gt;
 
-&lt;p&gt;면접관은 아무말도없이 고개만 끄덕였는데 지금 생각해봐도 저걸 왜물어봤는지 이해가 되질 않는다.&lt;/p&gt;
+&lt;p&gt;만약 이후 질문이 저랬다면 버벅대다 대답도 못했을 테지….. 😭&lt;br /&gt; 
+&lt;strong&gt;HashMap&lt;/strong&gt;의 동작에 대해서는 추후에 자세히 다룰 예정이다.&lt;br /&gt;
+참고로 &lt;a href=&quot;https://www.youtube.com/watch?v=S7vni1hdsZE&quot;&gt;유투브 포프TV&lt;/a&gt; 를 운영하시는 포프님은 개발자의 기본기를 HashTable 이라고 말씀하시면서,&lt;br /&gt; 
+개발자 면접때 물어본다고 하셨다.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;설마 저 대답을 원한건 아니었기를…&lt;/p&gt;
+&lt;p&gt;다시 주제로 돌아가서 &lt;strong&gt;Map&lt;/strong&gt;은 &lt;strong&gt;Collection Framework&lt;/strong&gt;에 속한 인터페이스중 하나로 키와 값을 하나의 쌍으로&lt;br /&gt;
+묶어서 저장하는 자료 구조 이다.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;( Collection Framework 란 다수의 데이터를 처리하는 자료 구조를 통칭하는 개념이다.)&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;hashmap-과-hashtable-의-차이점을-알고-있나요&quot;&gt;“HashMap 과 HashTable 의 차이점을 알고 있나요?”&lt;/h2&gt;
+&lt;h3 id=&quot;키의-중복을-허용하지-않는다는-것이-map의-핵심&quot;&gt;키의 중복을 허용하지 않는다는 것이 Map의 핵심.&lt;/h3&gt;
 
-&lt;h2 id=&quot;treemap-과-hashmap-의-차이점을-알고-있나요&quot;&gt;“TreeMap 과 HashMap 의 차이점을 알고 있나요?”&lt;/h2&gt;
-
-&lt;p&gt;차라리 이렇게 물어봤으면 좀 더 길게 대답 했을 것이다.&lt;/p&gt;
-
-&lt;p&gt;Java에서 Map 인터페이스를 구현한 클래스는 여러가지가 있다.&lt;/p&gt;
-
-&lt;p&gt;Map은 Key와 Value 를 한쌍으로 갖는 자료 구조 이다.&lt;/p&gt;
-
-&lt;p&gt;아파트를 예로 들자면 우리집 열쇠로는 우리집만 들어 갈 수 있는 구조가 Map 이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;키값의-중복을-허용하지-않는다는-것이-map의-핵심이다&quot;&gt;키값의 중복을 허용하지 않는다는 것이 Map의 핵심이다.&lt;/h3&gt;
-
-&lt;p&gt;Map을 구현한 클래스를 살펴보면 대표적으로&lt;/p&gt;
-
-&lt;p&gt;HashTable, HashMap, ConcurrentHashMap, LinkedHashMap, TreeMap 등이 있다.&lt;/p&gt;
-
-&lt;p&gt;HashTable은 JDK 1.0 부터 있던 API 이고, HashMap은 Java 1.2 에서 처음 선보인&lt;/p&gt;
-
-&lt;p&gt;Java Collections Framework에 속한 API 이다. 여기서 Collections Framework란 쉽게 말해서,&lt;/p&gt;
-
-&lt;p&gt;다수의 데이터를 처리하는 자료 구조를 통칭하는 개념이다.&lt;/p&gt;
-
-&lt;p&gt;HashTable 과 HashMap의 차이점을 살펴보면,&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;이러한 &lt;strong&gt;Map&lt;/strong&gt;을 구현한 클래스중에 하나가 &lt;strong&gt;HashMap&lt;/strong&gt; 이다. &lt;br /&gt;
+이외에도 &lt;strong&gt;HashTable, HashMap, ConcurrentHashMap, LinkedHashMap, TreeMap&lt;/strong&gt; 등이 있다.&lt;br /&gt;
+&lt;strong&gt;HashTable&lt;/strong&gt;은 Java 1.0 부터 있던 API 이고, &lt;strong&gt;HashMap&lt;/strong&gt;은 Java 1.2 에서 추가된 API 이다.&lt;br /&gt;
+비슷한 이름을 가진 두 녀석, &lt;strong&gt;HashTable&lt;/strong&gt; 과 &lt;strong&gt;HashMap&lt;/strong&gt;의 차이점을 살펴보면,&lt;br /&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -82,70 +72,91 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Multi-Thread 환경이 아니라면 HashMap을 쓰는 것이 아무래도 성능상 이롭다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Multi-Thread&lt;/strong&gt; 환경이 아니라면 &lt;strong&gt;Synchronized&lt;/strong&gt;가 없는 &lt;strong&gt;HashMap&lt;/strong&gt;을 쓰는 것이 아무래도 성능상 이롭다.&lt;br /&gt;
+그러나 &lt;strong&gt;Synchronized&lt;/strong&gt; 가 필요한 상황일지라도 &lt;strong&gt;HashTable&lt;/strong&gt;은 오래된 클래스라서 최근에는 사용하지 않고,&lt;br /&gt;
+&lt;strong&gt;ConcurrentHashMap&lt;/strong&gt; 라는 &lt;strong&gt;HashMap&lt;/strong&gt;에서 &lt;strong&gt;Synchronized&lt;/strong&gt;가 추가된 클래스를 사용하길 권장한다.&lt;br /&gt;
+하지만 &lt;strong&gt;Multi-Thread&lt;/strong&gt; 환경에서 개발 해본 적이 없어서 써본적은 없다. 사실 포스팅하면서 처음 봤다… 😱&lt;/p&gt;
 
-&lt;p&gt;그러나 Synchronized 가 필요한 상황일지라도 HashTable은 오래된 클래스라서 최근에는 사용하지 않고,&lt;/p&gt;
-
-&lt;p&gt;ConcurrentHashMap 라는 HashMap에서 Synchronized가 추가된 클래스를 사용하길 권장한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;hashtable-과-hashmap은-순서를-보장하지-않는다&quot;&gt;HashTable 과 HashMap은 순서를 보장하지 않는다.&lt;/h3&gt;
+&lt;h3 id=&quot;자-이제-설명은-됐고-코드를-보자&quot;&gt;자 이제 설명은 됐고, 코드를 보자.&lt;/h3&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
     &lt;span class=&quot;n&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
     
-    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test_A&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;첫번째&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test_B&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;두번째&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test_C&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;세번째&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test_D&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;네번째&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test_E&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;다섯째&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test_F&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;여섯째&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;keySet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()){&lt;/span&gt;
-    
-        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hashMap value : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;white&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;흰색&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;red&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;빨강&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;yellow&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;노랑&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;green&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;녹색&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;blue&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;파랑&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pink&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;핑크&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
 
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;keySet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()){&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;key is : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;, value is : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;출력 결과&lt;/p&gt;
+&lt;h3 id=&quot;출력-결과&quot;&gt;출력 결과&lt;/h3&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;c1&quot;&gt;// hashMap value : 네번째&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// hashMap value : 세번째&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// hashMap value : 두번째&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// hashMap value : 첫번째&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// hashMap value : 여섯째&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// hashMap value : 다섯째&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : red, value is : 빨강&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : pink, value is : 핑크&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : green, value is : 녹색&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : white, value is : 흰색&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : blue, value is : 파랑&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : yellow, value is : 노랑&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;결과값을 보면 입력한 순서대로 출력되면 좋겠지만 뒤죽박죽으로 출력이 된다.&lt;/p&gt;
+&lt;p&gt;결과값을 보면 입력한 순서대로 출력되면 좋겠지만 뒤죽박죽으로 출력이 된다.&lt;br /&gt;
+이럴때 필요한게 &lt;strong&gt;TreeMap&lt;/strong&gt;, &lt;strong&gt;LinkedHashMap&lt;/strong&gt; 이 있다. 위에 얘기했던 면접때 &lt;strong&gt;LinkedHashMap&lt;/strong&gt; 에 대한&lt;br /&gt;
+질문도 있었는데, 창피하게도 제대로 대답은 못했고 안써봐서 잘 모른다고 했다. &lt;br /&gt;
+일할때도 &lt;strong&gt;ArrayList&amp;lt;HashMap&amp;gt;&lt;/strong&gt; 형태로만 써왔고, 왜 쓰는지에 대해선 생각해본적 없었다.&lt;br /&gt;
+그냥 남들이 쓰니까 썼다. 역시 모르면 물어봐야한다.&lt;br /&gt;
+돌이켜보면 &lt;strong&gt;LinkedHashMap&lt;/strong&gt; 보다 성능상 나아서 다들 그렇게 썼나보다 라고 생각하고 싶지만,&lt;br /&gt;
+왠지 그들도 모르고 그냥 쓴 것 같다……. 😰&lt;/p&gt;
 
-&lt;p&gt;이럴때 필요한게 TreeMap, LinkedHashMap 이 있다.&lt;/p&gt;
+&lt;h3 id=&quot;순서를-보장하는-treemap-과-linkedhashmap&quot;&gt;순서를 보장하는 TreeMap 과 LinkedHashMap.&lt;/h3&gt;
 
-&lt;p&gt;위에 말했던 면접때 LinkedHashMap 에 대한 질문도 있었는데 제대로 대답을 못했다.&lt;/p&gt;
+&lt;p&gt;정확하게 얘기 하면 &lt;strong&gt;LinkedHashMap&lt;/strong&gt;는 입력된 순서를 보장하고, &lt;strong&gt;TreeMap&lt;/strong&gt;는 정렬된 순서를 보장한다.&lt;br /&gt;
+ &lt;strong&gt;Collections.sort&lt;/strong&gt;에 &lt;strong&gt;Compartor&lt;/strong&gt; 구현으로 순서를 변경 할 수 있다.&lt;br /&gt;
+기본 정렬 순서는 숫자 &amp;gt; 알파벳 대문자 &amp;gt; 알파벳 소문자 &amp;gt; 한글 순이다.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;(TreeMap은 내부적으로 Red-Black Tree로 저장한다. Red-Black Tree 대해서는 나중에 다시 정리 할 예정.)&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;LinkedHashMap을 잘 모르기도 했고, 일할때도 LinkedHashMap 보다 ArrayList&amp;lt;HashMap&amp;gt; 형태로 사용했다.&lt;/p&gt;
+&lt;h3 id=&quot;자-이제-설명은-됐고-코드를-보자-1&quot;&gt;자 이제 설명은 됐고, 코드를 보자.&lt;/h3&gt;
 
-&lt;p&gt;지금 생각해보면 단순 목록 데이터만 내려주는 형태라 LinkedHashMap 보다 ArrayList&lt;HashMap&gt;로&lt;/HashMap&gt;&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;n&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LinkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;white&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;흰색&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;red&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;빨강&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;yellow&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;노랑&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;green&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;녹색&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;blue&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;파랑&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pink&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;핑크&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
 
-&lt;p&gt;사용하는게 성능상 나아서 다들 그렇게 썼나 싶다.&lt;/p&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linkedHashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;keySet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()){&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;key is : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;, value is : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 
-&lt;h3 id=&quot;treemap-과-linkedhashmap-는-순서를-보장한다&quot;&gt;TreeMap 과 LinkedHashMap 는 순서를 보장한다.&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;정확히 얘기 하면 LinkedHashMap는 입력된 순서를 보장하고,&lt;/p&gt;
+&lt;h3 id=&quot;출력-결과-1&quot;&gt;출력 결과&lt;/h3&gt;
 
-&lt;p&gt;TreeMap 정렬된 순서를 보장하며 &lt;strong&gt;Compartor&lt;/strong&gt; 구현으로 순서를 변경 할 수 있다.&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;(내부적으로 Red-Black Tree로 저장하고 Red-Black Tree 대해서는 나중에 다시 정리 할 예정.)&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : white, value is : 흰색&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : red, value is : 빨강&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : yellow, value is : 노랑&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : green, value is : 녹색&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : blue, value is : 파랑&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key is : pink, value is : 핑크&lt;/span&gt;
 
-&lt;p&gt;기본 정렬 순서는 숫자 &amp;gt; 알파벳 대문자 &amp;gt; 알파벳 소문자 &amp;gt; 한글 순이다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;LinkedHashMap 은 Doubly-Linked List를 내부에 유지함으로써 입력된 자료의 순서를 보장한다.&lt;/p&gt;
+&lt;p&gt;출력결과를 보면 입력된 순서가 보장됨을 확인 할 수 있다.&lt;br /&gt;
+&lt;strong&gt;LinkedHashMap&lt;/strong&gt; 은 &lt;strong&gt;Doubly-Linked List&lt;/strong&gt;를 내부에 유지함으로써 입력된 자료의 순서를 보장한다.&lt;br /&gt;
+그리고 이번 포스팅에선 대략적인 내용만 정리하고 동작 방법이나 성능 등 자세한 포스팅은 나중에 다룬다.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;그리고 이번 포스팅에선 대략적인 내용만 정리하고&lt;/p&gt;
-
-&lt;p&gt;동작 방법이나 성능 등 좀 더 자세한 포스팅은 나중에 다룬다.&lt;/p&gt;
+&lt;p&gt;앞으로도 면접 때 들었던 질문을 꾸준히 포스팅 할 예정이다. 👌&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Jun 2019 02:37:00 +0900</pubDate>
         <link>http://localhost:4000/tech/java-map-hashmap-diffrent/</link>
@@ -162,16 +173,18 @@
     
       <item>
         <title>블로그를 만들게 된 이유.</title>
-        <description>&lt;p&gt;서핑을 하다 좋은 포스팅을 발견했을 때나 면접관에게 들었던 질문 혹은 어떠한 문제를 해결하기 위해
-했던 삽질과 노력들을 어딘가에 정리 할 수 있으면 좋을 것 같다는 생각은 항상 하고 있었다.&lt;/p&gt;
-
-&lt;p&gt;누군가에게 보여준다기 보다 내가 정리할 곳이 필요해서 여러 차례 시도는 해봤지만, 
+        <description>&lt;p&gt;서핑을 하다 좋은 포스팅을 발견했을 때, 면접관에게 들었던 질문 혹은 어떠한 문제를 해결하기 위해 했던 삽질과 노력들을 어딘가에 정리 할 수 있으면 좋을 것 같다는 생각은 항상 하고 있었다.
+누군가에게 보여준다기 보다 내가 정리할 곳이 필요해서 여러 차례 시도는 해봤지만,
 바쁘다는 핑계와 그럴듯하게 합리화 시킨 못한다는 이유로 말로만 하기 일쑤였는데 
-이번에 계획에 없던 휴식 기간에 만들어보기로 하고 그동안 눈여겨 보고있던 &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;로 만들어 보았다.&lt;/p&gt;
+이번에 계획에 없던 휴식 기간에 만들어보기로 하고 그동안 눈여겨 보고있던 &lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt;로 만들어 보았다.
+포스팅의 종류는 알고리즘이나 디자인패턴 FrontEnd, BackEnd 등 알고있는 모든 분야를 가리지 않을 예정이지만,
+그래도 주력은 &lt;strong&gt;Spring&lt;/strong&gt; 이다.&lt;/p&gt;
 
-&lt;p&gt;넓고 깊이 아는 개발자가 되고 싶다 그러기 위해서 항상 공부하는 개발자 이고 싶다.&lt;/p&gt;
+&lt;p&gt;넓고 깊이 아는 개발자가 되고 싶다.&lt;br /&gt;
+그러기 위해 항상 공부하는 개발자 이고 싶다.&lt;br /&gt;
+흰머리가 나도 코딩하는 그런 사람이고 싶다.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;언제나 그러고 싶다.&lt;/p&gt;
+&lt;h2 id=&quot;언제나-그러고-싶다&quot;&gt;언제나 그러고 싶다.&lt;/h2&gt;
 
 </description>
         <pubDate>Wed, 12 Jun 2019 02:37:00 +0900</pubDate>
