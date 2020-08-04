@@ -34,6 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" afterDir="false" />
@@ -201,7 +202,7 @@
       <workItem from="1595943782957" duration="1699000" />
       <workItem from="1595945523803" duration="2926000" />
       <workItem from="1596545321686" duration="3180000" />
-      <workItem from="1596551204867" duration="2118000" />
+      <workItem from="1596551204867" duration="2449000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -251,10 +252,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="149" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1595944918561" />
-    <state x="354" y="276" width="585" height="852" key="find.popup" timestamp="1596553286581">
+    <state x="354" y="276" width="585" height="852" key="find.popup" timestamp="1596553580245">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="354" y="276" width="585" height="852" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596553286581" />
+    <state x="354" y="276" width="585" height="852" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596553580245" />
     <state x="310" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1596553309892">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
