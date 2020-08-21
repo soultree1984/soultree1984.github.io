@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Map과 HashMap의 차이점은 무엇인가요?'
+title: '[면접] Map과 HashMap의 차이점은 무엇인가요?'
 author: soultree1984
-date: 2019-06-12 02:37
+date: 2019-06-12 10:22
 categories: ["tech"]
 tags: 
 - "interview"

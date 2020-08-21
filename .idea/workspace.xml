@@ -34,13 +34,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/talk/2019-06-12-why-blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/talk/2019-06-12-why-blog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/tech/2019-06-12-java-map-hashmap-diffrent.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/tech/2019-06-12-java-map-hashmap-diffrent.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ES2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES2015/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ES5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ES5/index.html" afterDir="false" />
@@ -73,6 +75,7 @@
       <change beforePath="$PROJECT_DIR$/_site/tags/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/go/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/hadoop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hadoop/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/hbase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/hbase/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/interview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/interview/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/java/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/javascript/index.html" afterDir="false" />
@@ -115,7 +118,8 @@
       <change beforePath="$PROJECT_DIR$/_site/talk/why-blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talk/why-blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/talks.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/talks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tech/java-map-hashmap-diffrent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/java-map-hashmap-diffrent/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/default_author_cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/default_page_cover.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,21 +174,6 @@
       <recent name="C:\Users\SouLTree\IdeaProjects\soultree1984.github.io\tech" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\SouLTree\AppData\Roaming\Subversion</configuration>
@@ -211,6 +200,14 @@
       <workItem from="1595945523803" duration="2926000" />
       <workItem from="1596545321686" duration="3180000" />
       <workItem from="1596551204867" duration="15615000" />
+      <workItem from="1596607919872" duration="600000" />
+      <workItem from="1597143201419" duration="607000" />
+      <workItem from="1597320667114" duration="801000" />
+      <workItem from="1597435524852" duration="599000" />
+      <workItem from="1597725822983" duration="599000" />
+      <workItem from="1597856893884" duration="82000" />
+      <workItem from="1597931369819" duration="16779000" />
+      <workItem from="1597982497968" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
@@ -252,6 +249,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="TEST..." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="344" y="493" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597937741957">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="344" y="493" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1597937741957" />
     <state x="428" y="455" key="FileChooserDialogImpl" timestamp="1596547598397">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -264,10 +265,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="354" y="276" width="585" height="852" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596554075168" />
-    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1596555365994">
+    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1597943109689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596555365994" />
+    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1597943109689" />
   </component>
   <component name="masterDetails">
     <states>
