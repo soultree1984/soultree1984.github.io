@@ -34,8 +34,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d83f71bc-d39e-400d-97b5-1d6c25867270" name="Default Changelist" comment="TEST...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/tech/2019-07-12-ascii-unicode-utf8.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/tech/2019-07-12-ascii-unicode-utf8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/tech/2019-08-12-webserver-apache-keep-alive.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/tech/2019-08-12-webserver-apache-keep-alive.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/soultree1984/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page/4/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/rss/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rss/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/search2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ECMAScript5/index.html" afterDir="false" />
@@ -112,7 +116,7 @@
       <change beforePath="$PROJECT_DIR$/_site/tags/vim/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/vim/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/web-cache/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/web-cache/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/weekly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/weekly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tech/ascii-unicode-utf8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/ascii-unicode-utf8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tech/webserver-apache-keep-alive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tech/webserver-apache-keep-alive/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +219,7 @@
       <workItem from="1597725822983" duration="599000" />
       <workItem from="1597856893884" duration="82000" />
       <workItem from="1597931369819" duration="16779000" />
-      <workItem from="1597982497968" duration="13940000" />
+      <workItem from="1597982497968" duration="25229000" />
     </task>
     <task id="LOCAL-00001" summary="TEST...">
       <created>1535881213375</created>
