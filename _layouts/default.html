@@ -1,48 +1,55 @@
+---
+layout: compress
+# Default layout
+---
+
 <!DOCTYPE html>
-<html>
-<head>
-    {% include head.html %}
 
-    <script src="{{ site.asset_url }}/lib/jquery-1.12.0.min.js"></script>
-    <script src="{{ site.asset_url }}/lib/jquery.magnific-popup.min.js"></script>
-    <script src="{{ site.asset_url }}/js/index.js"></script>
-    <link rel="icon" href="/assets/favicon84.png">
+{% include lang.html %}
 
-</head>
-<body class="{{ page.layout | append: '-template' }}">
+{% capture prefer_mode %}
+  {% if site.theme_mode %}
+    mode="{{ site.theme_mode }}"
+  {% endif %}
+{% endcapture %}
 
-{% include header.html %}
+<html lang="{{ site.lang }}" {{ prefer_mode }}>
 
-<div id="wrapper">
-    {{ content }}
+  {% include head.html %}
 
-    <div class="clearfix"></div>
+  <body data-spy="scroll" data-target="#toc">
 
-    <a href="#" id="back-to-top"></a>
-</div>
+    {% include sidebar.html %}
 
-{% include footer.html %}
+    {% include topbar.html %}
 
-<!--<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>-->
+    <div id="main-wrapper">
+      <div id="main">
 
-{% if site.google_analytics %}
-{% include google_analytics.html %}
-{% endif %}
+        {% include refactor-content.html content=content %}
 
-{% if page.layout != 'home' %}
-    {% include kakaostory_sdk.html %}
+        {% include footer.html %}
 
-    {% if site.facebook %}
-    {% include facebook_sdk.html %}
+      </div>
+
+      {% include search-results.html %}
+
+    </div> <!-- #main-wrapper -->
+
+    {% if page.mermaid %}
+      {% include mermaid.html %}
     {% endif %}
 
-    {% if site.twitter %}
-    {% include twitter_sdk.html %}
-    {% endif %}
+    <div id="mask"></div>
 
-    {% if site.google_plus %}
-    {% include google_plus_sdk.html %}
-    {% endif %}
-{% endif %}
-</body>
+    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    {% include search-loader.html %}
+
+    {% include js-selector.html %}
+
+  </body>
+
 </html>

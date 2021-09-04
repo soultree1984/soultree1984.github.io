@@ -1,39 +1,97 @@
 ---
-layout: default
+layout: page
+# The Home page layout
 ---
-<div id="cover" class="container-fluid"
 
-     {% if page.image %}style="background-image:url({{ page.image }});"{% endif %}>
+{% include lang.html %}
 
-    {% if paginator.page == 1 %}
-        <!--[if (gt IE 9)|!(IE)]><!-->
-        <!--<site.categories.tech loop muted preload="metadata" crossorigin="anonymous">
-            <source src="{{ site.asset_url }}/images/blog_cover.webm" type="video/webm"/>
-            <source src="{{ site.asset_url }}/images/blog_cover.ogv" type="video/ogg"/>
-            <source src="{{ site.asset_url }}/images/blog_cover.mp4" type="video/mp4"/>
-        </video>-->
-        <!--<![endif]-->
-    {% endif %}
-    <div>
-        <h1>{{ site.sub_title }}</h1>
-        <p>{{ site.description | newline_to_br }}</p>
+{% assign pinned = site.posts | where: "pin", "true" %}
+{% assign default = site.posts | where_exp: "item", "item.pin != true" %}
+
+{% assign posts = "" | split: "" %}
+
+<!-- Get pinned posts -->
+
+{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
+{% assign pinned_num = pinned.size | minus: offset %}
+
+{% if pinned_num > 0 %}
+  {% for i in (offset..pinned.size) limit: pinned_num %}
+    {% assign posts = posts | push: pinned[i] %}
+  {% endfor %}
+{% else %}
+  {% assign pinned_num = 0 %}
+{% endif %}
+
+
+<!-- Get default posts -->
+
+{% assign default_beg = offset | minus: pinned.size %}
+
+{% if default_beg < 0 %}
+  {% assign default_beg = 0 %}
+{% endif %}
+
+{% assign default_num = paginator.posts | size | minus: pinned_num  %}
+{% assign default_end = default_beg | plus: default_num | minus: 1 %}
+
+{% if default_num > 0 %}
+  {% for i in (default_beg..default_end) %}
+    {% assign posts = posts | push: default[i] %}
+  {% endfor %}
+{% endif %}
+
+<div id="post-list">
+
+{% for post in posts %}
+
+  <div class="post-preview">
+    <h1>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h1>
+
+    <div class="post-content">
+      <p>
+        {% include no-linenos.html content=post.content %}
+        {{ content | markdownify | strip_html | truncate: 200 }}
+      </p>
     </div>
-</div>
 
-<!-- 광고 영역 -->
+    <div class="post-meta text-muted d-flex justify-content-between">
 
-<!--
-<div class="container" style="margin-top:25px; padding:0px">
-    <a href="https://careers.kakao.com/jobs/P-11189"><img src="/files/career6.png" style="width:100%;"></a>
-</div>
--->
+      <div>
+        <!-- posted date -->
+        <i class="far fa-calendar fa-fw"></i>
+        {% include timeago.html date=post.date tooltip=true %}
 
-<div id="navbar" class="container">
-    <h5>Featured {{page.title}} Posts</h5>
-</div>
+        <!-- time to read -->
+        <i class="far fa-clock fa-fw"></i>
+        {% include read-time.html content=post.content %}
 
-<div id="content" class="container">
-    <div id="home-content" role="main">
-        {{ content }}
-    </div>
-</div>
+        <!-- page views -->
+        {% if site.google_analytics.pv.proxy_endpoint or site.google_analytics.pv.cache_path %}
+        <i class="far fa-eye fa-fw"></i>
+        <span id="pv_{{-post.title-}}" class="pageviews">
+          <i class="fas fa-spinner fa-spin fa-fw"></i>
+        </span>
+        {% endif %}
+      </div>
+
+      {% if post.pin %}
+      <div class="pin">
+        <i class="fas fa-thumbtack fa-fw"></i>
+        <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
+      </div>
+      {% endif %}
+
+    </div> <!-- .post-meta -->
+
+  </div> <!-- .post-review -->
+
+{% endfor %}
+
+</div> <!-- #post-list -->
+
+{% if paginator.total_pages > 0 %}
+  {% include post-paginator.html %}
+{% endif %}

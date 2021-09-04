@@ -1,24 +1,4 @@
 ---
 layout: home
-title: Tech
-image: '/assets/images/cover4.jpg'
-pagination:
-    enabled: true
+# Index page
 ---
-
-<script>
-    $("#menu li").removeClass("active").eq(0).addClass("active");
-</script>
-
-<ul id="post-list">
-
-    {% for post in site.categories.tech %}
-
-        {% include item.html %}
-
-    {% endfor %}
-
-</ul>
-
-<!--
-{% include pagination.html %}-->

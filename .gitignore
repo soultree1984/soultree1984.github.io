@@ -1,6 +1,18 @@
-.DS_Store
-#_site
-.sass-cache
-.jekyll-metadata
-.idea
-.ruby-version
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+
+# bundler cache
+_site
+vendor
+Gemfile.lock
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json
